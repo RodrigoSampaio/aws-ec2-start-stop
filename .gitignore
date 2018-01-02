@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# ZIP file used to deploy in Lambda Environment
+aws-ec2-start-stop.zip

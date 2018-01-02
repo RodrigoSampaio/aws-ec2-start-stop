@@ -1,0 +1,32 @@
+{
+  "name": "aws-ec2-start-stop",
+  "version": "1.0.0",
+  "description": "A simple javascript lib to start and stop aws ec2 instance using aws sdk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoSampaio/aws-ec2-start-stop.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2"
+  ],
+  "author": "Rodrigo Sampaio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoSampaio/aws-ec2-start-stop/issues"
+  },
+  "homepage": "https://github.com/RodrigoSampaio/aws-ec2-start-stop#readme",
+  "devDependencies": {
+    "mocha": "4.1.0",
+    "nodemon": "1.14.6",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "aws-sdk": "2.176.0",
+    "promise": "8.0.1"
+  }
+}
